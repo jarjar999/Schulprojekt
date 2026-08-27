@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Max Mustermann", "klasse": "FI24A" },
+  { "id": 2, "name": "Erika Mustermann", "klasse": "FI24A" },
+  { "id": 3, "name": "John Doe", "klasse": "FI24B" }
+]

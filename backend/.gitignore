@@ -1,0 +1,14 @@
+# Lokale Abhängigkeiten blockieren
+node_modules/
+
+# Den fertigen JavaScript-Build-Ordner blockieren
+dist/
+
+# Entwicklungs-Logs ignorieren
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Eventuelle Betriebssystem-Dateien
+.DS_Store
+Thumbs.db

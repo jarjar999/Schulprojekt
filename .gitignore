@@ -1,0 +1,13 @@
+# Blockiert alle node_modules in jedem Unterordner (frontend und backend)
+**/node_modules/
+
+# Blockiert alle Build-Ordner (z. B. den dist-Ordner von Vite oder TypeScript)
+**/dist/
+
+# Entwicklungs-Logs überall ignorieren
+*.log
+**/*.log
+
+# Betriebssystem-Dateien ignorieren
+.DS_Store
+Thumbs.db
