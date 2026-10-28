@@ -1,0 +1,56 @@
+/* Schülerliste als Grid */
+.student-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Einzelne Schülerkarte */
+.student-card {
+    background-color: var(--card-color);
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+
+/* Abstand unter dem Namen */
+.student-card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+/* Abstände bei Klasse und ID */
+.student-card p {
+    margin: 5px 0;
+}
+
+
+/* Breakpoint 1: größere Smartphones */
+@media (min-width: 480px) {
+    .student-card {
+        padding: 25px;
+    }
+}
+
+
+/* Breakpoint 2: Tablet */
+@media (min-width: 700px) {
+    .student-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* Breakpoint 3: Desktop */
+@media (min-width: 1000px) {
+    .student-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
