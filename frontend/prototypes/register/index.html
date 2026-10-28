@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Schüler erfassen | Classroom-Manager</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Schüler:in erfassen</h1>
+        <p>Classroom-Manager</p>
+    </header>
+
+    <main>
+
+        <form>
+
+            <fieldset>
+
+                <legend>Schülerdaten</legend>
+
+                <div>
+                    <label for="firstname">Vorname</label>
+                    <input
+                        type="text"
+                        id="firstname"
+                        name="firstname"
+                        required
+                        aria-describedby="firstname-error">
+
+                    <p id="firstname-error" aria-live="polite">
+                        Bitte gib einen Vornamen ein.
+                    </p>
+                </div>
+
+                <div>
+                    <label for="lastname">Nachname</label>
+                    <input
+                        type="text"
+                        id="lastname"
+                        name="lastname"
+                        required
+                        aria-describedby="lastname-error">
+
+                    <p id="lastname-error" aria-live="polite">
+                        Bitte gib einen Nachnamen ein.
+                    </p>
+                </div>
+
+                <div>
+                    <label for="email">E-Mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        aria-describedby="email-error">
+
+                    <p id="email-error" aria-live="polite">
+                        Bitte gib eine gültige E-Mail-Adresse ein.
+                    </p>
+                </div>
+
+                <div>
+                    <label for="class">Klasse</label>
+
+                    <select
+                        id="class"
+                        name="class"
+                        required
+                        aria-describedby="class-error">
+
+                        <option value="">Bitte Klasse auswählen</option>
+                        <option value="FI24A">FI24A</option>
+                        <option value="FI24B">FI24B</option>
+
+                    </select>
+
+                    <p id="class-error" aria-live="polite">
+                        Bitte wähle eine Klasse aus.
+                    </p>
+                </div>
+
+                <button type="submit">
+                    Schüler speichern
+                </button>
+
+            </fieldset>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>BBS 2 Leer</p>
+    </footer>
+
+</body>
+
+</html>
