@@ -1,0 +1,131 @@
+/* Allgemeine Einstellungen */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222222;
+}
+
+
+/* Kopfbereich */
+
+header {
+    padding: 20px;
+    background-color: #0d6efd;
+    color: white;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+
+/* Hauptbereich */
+
+main {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+
+/* Formular */
+
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+fieldset {
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/* Formularfelder */
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+
+    font-size: 1rem;
+
+    border: 1px solid #777777;
+    border-radius: 4px;
+}
+
+
+/* Fehlermeldungen */
+
+form div p {
+    margin-top: 5px;
+    color: #b00020;
+    font-size: 0.9rem;
+}
+
+
+/* Speichern-Button */
+
+button {
+    margin-top: 25px;
+    padding: 12px 20px;
+
+    background-color: #0d6efd;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #084298;
+}
+
+
+/* Tastatur-Fokus */
+
+input:focus-visible,
+select:focus-visible,
+button:focus-visible {
+    outline: 3px solid #ffbf47;
+    outline-offset: 3px;
+}
+
+
+/* Fußbereich */
+
+footer {
+    padding: 20px;
+
+    background-color: #0d6efd;
+    color: white;
+
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
